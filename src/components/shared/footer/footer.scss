@@ -1,0 +1,68 @@
+:host {
+  display: block;
+}
+
+.pb-footer__wrapper {
+  background: linear-gradient(255.4deg, #F65ECB 0%, #FFBBBB 100%);
+  border-radius: 32px;
+  width: 100%;
+}
+
+.pb-footer__section {
+  padding: 160px 68px 80px 68px;
+}
+
+.pb-footer__section--contacts-content {
+  padding: 160px 68px 0 68px;
+}
+
+.pb-footer__section--pets-slider-content {
+  padding: 160px 0 0;
+}
+
+.pb-footer__logo {
+  font-size: 321px;
+  font-weight: 500;
+  line-height: 345px;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.pb-footer__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.pb-footer__navigation-wrapper {
+  padding-right: 86px;
+}
+
+.pb-footer__navigation {
+  width: 524px;
+  padding-right: 59px;
+}
+
+.pb-footer__text {
+  font-family: 'Ranade';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #fff;
+  transition: 200ms;
+}
+
+.pb-footer__text--link:hover {
+  transform: scale(1.05);
+}
+
+.pb-footer__text-divider {
+  margin: 0 16px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fff;
+}

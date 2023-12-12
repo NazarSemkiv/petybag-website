@@ -1,0 +1,104 @@
+@import "../../../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+
+:host {
+  display: block;
+}
+
+.pb-header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background: transparent;
+  transition: 300ms;
+  padding: 16px 84px 0;
+  width: 100vw;
+}
+
+.pb-header-wrapper--active {
+  height: 100vh;
+  background: #00000066;
+}
+
+.pb-header {
+  padding: 16px;
+  border-radius: 64px;
+  background: #ffffff;
+  height: 96px;
+  transition: 200ms;
+}
+
+.pb-header--scrolled {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.pb-header-menu {
+  padding: 44px;
+  background: #ffffff;
+  border-radius: 32px;
+}
+
+.pb-header__logo {
+  width: 105px;
+  height: 60px;
+}
+
+.pb-bag-wrapper {
+  position: relative;
+}
+
+.pb-bag-indicator {
+  position: absolute;
+  bottom: 19px;
+  right: 21px;
+  width: 6px;
+  height: 6px;
+  background: #FF3B7F;
+  border-radius: 50%;
+}
+
+.pb-header-menu__sub-label {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.pb-header-menu__traco-button {
+  width: 133px;
+}
+
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after,
+.hamburger.hamburger--white .hamburger-inner, .hamburger.hamburger--white .hamburger-inner::before, .hamburger.hamburger--white .hamburger-inner::after {
+  background: #fff;
+}
+
+.hamburger {
+  padding: 0;
+  height: 16px;
+  width: 16px;
+}
+
+.hamburger-box {
+  height: 16px;
+  width: 16px;
+}
+
+.hamburger-box--collapsed {
+  top: -6px;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  width: 16px;
+  height: 1.5px;
+}
+
+.hamburger--collapse .hamburger-inner::after {
+  top: -8px;
+}
+
+.hamburger-inner::before {
+  top: -4px;
+}

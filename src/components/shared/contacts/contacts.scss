@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+.pb-contacts {
+  padding: 80px;
+  border-radius: 32px;
+  background: #fff;
+}
+
+.pb-contacts__dog-icon {
+  width: 153px;
+  height: 159px;
+}
+
+.pb-contacts__label {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0;
+}
+
+.pb-contacts__description {
+  font-family: 'Ranade';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #28213599;
+}

@@ -1,0 +1,62 @@
+.pb-button {
+  min-width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  color: #282135;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 200ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ranade';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0;
+  padding: 0;
+
+  &:hover:not([disabled]) {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+}
+
+.pb-button--large {
+  min-width: 150px;
+  height: 150px;
+}
+
+.pb-button--icon {
+  min-width: 54px;
+  height: 54px;
+  border: 1px solid #FFFFFF1A;
+  background: #FFFFFF1A;
+}
+
+.pb-button--white {
+  color: #fff;
+}
+
+.pb-button--bordered {
+  border: 1px solid #282135;
+}
+
+.pb-button--white.pb-button--bordered {
+  border-color: #fff;
+}
+
+.pb-button--p-horizontal {
+  padding: 0 24px;
+}
+
+.pb-button--dark {
+  color: #ffffff;
+  background: #282135;
+}
+
+.pb-button--pink {
+  color: #ffffff;
+  background: #FF3B7F;
+}

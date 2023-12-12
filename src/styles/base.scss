@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  outline: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Syne', 'Ranade', 'Open Sans', Open Sans, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #282135;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pb {
+  max-width: var(--app-min-width);
+  width: 100%;
+  overflow: hidden;
+}
+
+.pb-header-gap {
+  padding-top: 128px;
+}
+
+.pb-display--contents {
+  display: contents;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}

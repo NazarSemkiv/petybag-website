@@ -1,0 +1,30 @@
+.pb-link {
+  font-family: 'Ranade';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #282135;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 200ms;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.pb-link--white {
+  color: #fff;
+}
+
+.pb-link--large {
+  font-family: 'Syne';
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.pb-link--active {
+  text-decoration: underline;
+}

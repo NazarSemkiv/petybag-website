@@ -1,0 +1,38 @@
+:host {
+  display: block;
+}
+
+.pb-slider__text {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0;
+  color: #ffffff;
+}
+
+.pb-slider {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .slick-track {
+    display: flex;
+
+    .slick-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .slick-slide > div {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .slick-list {
+    overflow: hidden;
+  }
+}
