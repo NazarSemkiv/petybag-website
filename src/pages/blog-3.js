@@ -4,6 +4,7 @@ import Seo from "../components/seo";
 import Layout from "../components/shared/layout/layout";
 import blogThreeImg from "../images/icons/blog-3.svg";
 import { blogData } from "../blog-data/blog-data";
+import {Link} from "gatsby";
 
 const BlogThreePage = () => (
     <Layout>
@@ -11,6 +12,24 @@ const BlogThreePage = () => (
 
         <div vertical="center" horizontal="center">
             <div className="pb pb-blog-post">
+                <div vertical="center" className="m-bottom--x-large">
+                    <Link to="/" className="pb-navigation__previous">
+                        Início
+                    </Link>
+
+                    <div className="pb-navigation__navigation-divider m-horizontal--x-small">/</div>
+
+                    <Link to="/blog-list" className="pb-navigation__previous">
+                        Blogue
+                    </Link>
+
+                    <div className="pb-navigation__navigation-divider m-horizontal--x-small">/</div>
+
+                    <Link to="" className="pb-navigation__current">
+                        Publicar
+                    </Link>
+                </div>
+
                 <div vertical="start">
                     <div className="m-right--large">
                         <img className="pb-blog-post__image" src={blogThreeImg} alt="Img"/>

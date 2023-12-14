@@ -15,13 +15,13 @@ class Special extends Component {
                     {
                         this.props.page === "special-offer" &&
                         <div vertical="center" className="pb-special__navigation m-bottom--x-large">
-                            <Link to="/" className="pb-special__navigation-home">
+                            <Link to="/" className="pb-navigation__previous">
                                 Início
                             </Link>
 
-                            <div className="pb-special__navigation-divider m-horizontal--x-small">/</div>
+                            <div className="pb-navigation__navigation-divider m-horizontal--x-small">/</div>
 
-                            <Link to="/special-offer" className="pb-special__navigation-special">
+                            <Link to="/special-offer" className="pb-navigation__current">
                                 Oferta especial
                             </Link>
                         </div>
