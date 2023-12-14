@@ -18,24 +18,30 @@ const settings = {
 };
 
 class OurTeam extends Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
-            <div vertical="center" horizontal="center">
-                <div className="pb">
-                    <div vertical="start" horizontal="between" className="pb-our-team__wrapper m-bottom--x-large">
-                        <div className="p-right--large">
-                            <div className="pb-our-team__label m-bottom--medium">
-                                Nossa Equipe
+            <div id="comando" vertical="center" horizontal="center">
+                <div className={ this.props.page !== "special-offer" ? "pb" : "pb pb-our-team--special-offer" }>
+                    {
+                        this.props.page !== "special-offer" &&
+                        <div vertical="start" horizontal="between" className="pb-our-team__wrapper m-bottom--x-large">
+                            <div className="p-right--large">
+                                <div className="pb-our-team__label m-bottom--medium">
+                                    Nossa Equipe
+                                </div>
+                                <div className="pb-our-team__sub-label">
+                                    Apaixonados por animais de estimação
+                                </div>
                             </div>
-                            <div className="pb-our-team__sub-label">
-                                Apaixonados por animais de estimação
-                            </div>
-                        </div>
 
-                        <div className="pb-our-team__img">
-                            <img alt="Pet img" src={ourTeamImg}/>
+                            <div className="pb-our-team__img">
+                                <img alt="Pet img" src={ourTeamImg}/>
+                            </div>
                         </div>
-                    </div>
+                    }
 
                     <div className="m-top--x-large">
                         <Slider {...settings} className="pb-our-team__slider p-top--x-large">

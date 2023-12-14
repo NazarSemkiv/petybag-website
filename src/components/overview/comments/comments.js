@@ -22,12 +22,12 @@ class Comments extends Component {
                 <div className="pb">
                     <Slider {...settings} className="pb-comments__slider p-top--x-large">
                         <div>
-                            <div vertical="start" className="p-horizontal--small">
+                            <div horizontal="between" className="p-horizontal--small">
                                 <div className="pb-comments__pet-img flex-shrink--none m-right--large">
                                     <img alt="Pet background" src={petBgrImgTwo}/>
                                 </div>
 
-                                <div className="pb-comments__description-wrapper" direction="column">
+                                <div className="pb-comments__description-wrapper" direction="column" horizontal="between">
                                     <div className="pb-comments__description m-bottom--x-large">
                                         O nosso cão adora os produtos da Petybag! Comprei-lhe comida nova e ela ficou muito entusiasmada. Tenho a certeza de que só oferecem o melhor para os animais de estimação. Obrigado pelo vosso trabalho árduo!
                                     </div>
@@ -51,12 +51,12 @@ class Comments extends Component {
                         </div>
 
                         <div>
-                            <div vertical="start" className="p-horizontal--small">
+                            <div horizontal="between" className="p-horizontal--small">
                                 <div className="pb-comments__pet-img flex-shrink--none m-right--large">
                                     <img alt="Pet background" src={petBgrImg}/>
                                 </div>
 
-                                <div className="pb-comments__description-wrapper pb-comments__description-wrapper--third" direction="column">
+                                <div className="pb-comments__description-wrapper pb-comments__description-wrapper--third" direction="column" horizontal="between">
                                     <div className="pb-comments__description m-bottom--x-large">
                                         O nosso cão adora os produtos da Petybag! Comprei-lhe comida nova e ela ficou muito entusiasmada. Tenho a certeza de que só oferecem o melhor para os animais de estimação. Obrigado pelo vosso trabalho árduo!
                                     </div>
@@ -80,12 +80,12 @@ class Comments extends Component {
                         </div>
 
                         <div>
-                            <div vertical="start" className="p-horizontal--small">
+                            <div horizontal="between" className="p-horizontal--small">
                                 <div className="pb-comments__pet-img flex-shrink--none m-right--large">
                                     <img alt="Pet background" src={petBgrImg}/>
                                 </div>
 
-                                <div className="pb-comments__description-wrapper pb-comments__description-wrapper--second" direction="column">
+                                <div className="pb-comments__description-wrapper pb-comments__description-wrapper--second" direction="column" horizontal="between">
                                     <div className="pb-comments__description m-bottom--x-large">
                                         O nosso cão adora os produtos da Petybag! Comprei-lhe comida nova e ela ficou muito entusiasmada. Tenho a certeza de que só oferecem o melhor para os animais de estimação. Obrigado pelo vosso trabalho árduo!
                                     </div>

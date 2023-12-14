@@ -8,7 +8,7 @@ import petMiniIconTwo from "../../../images/icons/pet-mini2.svg";
 class TextSection extends Component {
     render() {
         return (
-            <div vertical="center" horizontal="center">
+            <div vertical="center" horizontal="center" className="pb-text-section-overview">
                 <div className="pb pb-text-section">
                     Defender a felicidade
                     <p className="pb-text-section__image-wrapper">

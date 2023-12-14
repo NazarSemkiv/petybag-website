@@ -2,26 +2,28 @@
   display: block;
 }
 
-.pb-text-section {
-  padding: 160px 84px;
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 77px;
-  letter-spacing: 0;
-  text-align: center;
-}
+.pb-text-section-overview {
+  .pb-text-section {
+    padding: 160px 84px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0;
+    text-align: center;
+  }
 
-.pb-text-section__image {
-  position: absolute;
-  top: calc(50% - 32px);
-  left: calc(50% - 32px);
-  width: 64px;
-  height: 64px;
-}
+  .pb-text-section__image {
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+    width: 64px;
+    height: 64px;
+  }
 
-.pb-text-section__image-wrapper {
-  display: inline-block;
-  position: relative;
-  width: 90px;
-  height: 45px;
+  .pb-text-section__image-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 45px;
+  }
 }

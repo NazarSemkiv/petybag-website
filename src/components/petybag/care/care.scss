@@ -1,0 +1,38 @@
+:host {
+  display: block;
+}
+
+.pb-care {
+  padding: 0 84px;
+}
+
+.pb-care__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 84px;
+}
+
+.pb-care__sub-label {
+  font-family: 'Ranade';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.pb-care__label {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0;
+}
+
+.pb-care__description {
+  font-family: 'Ranade';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #28213599;
+}

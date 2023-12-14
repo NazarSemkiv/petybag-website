@@ -23,7 +23,7 @@ class Contacts extends Component {
 
     render() {
         return (
-            <div className="pb-contacts" vertical="start">
+            <div id="pedido" className="pb-contacts" vertical="start">
                 <div className="s-width--1-2 p-right--x-large">
                     <img
                         alt="Dog icon"

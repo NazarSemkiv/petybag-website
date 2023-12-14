@@ -22,7 +22,7 @@ class Intro extends Component {
 
     render() {
         return (
-            <div vertical="center" horizontal="center">
+            <div vertical="center" horizontal="center" className="pb-intro-overview">
                 <div className="pb pb-intro">
                     <div className="pb-intro__main">
                         <div className="m-bottom--medium">
@@ -30,14 +30,14 @@ class Intro extends Component {
 
                             <div vertical="center">
                                 <div className="pb-intro__label p-right--xx-large">Coletor</div>
-                                <div className="p-left--xx-large">
-                                    <button
-                                        className="pb-button pb-button--large pb-button--bordered"
-                                        type="button"
-                                    >
-                                        Comprar
-                                    </button>
-                                </div>
+                                {/*<div className="p-left--xx-large">*/}
+                                {/*    <button*/}
+                                {/*        className="pb-button pb-button--large pb-button--bordered"*/}
+                                {/*        type="button"*/}
+                                {/*    >*/}
+                                {/*        Comprar*/}
+                                {/*    </button>*/}
+                                {/*</div>*/}
                             </div>
                         </div>
 

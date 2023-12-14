@@ -15,7 +15,7 @@ class Footer extends Component {
                 <div className="pb p-around--medium">
                     <div className="pb-footer__wrapper">
                         {
-                            this.props.page === 'overview' &&
+                            (this.props.page === 'overview' || this.props.page === 'petybag') &&
                             <div>
                                 <div className="pb-footer__section pb-footer__section--pets-slider-content">
                                     <PetsSlider/>
@@ -63,7 +63,7 @@ class Footer extends Component {
                                             </Link>
 
                                             <Link
-                                                to=""
+                                                to="/petybag"
                                                 activeClassName="pb-link--active"
                                                 className="pb-link pb-link--white m-bottom--small"
                                             >
@@ -76,26 +76,26 @@ class Footer extends Component {
                                         </div>
 
                                         <div direction="column">
-                                            <a
-                                                href=""
+                                            <Link
+                                                to="/blog-list"
                                                 className="pb-link pb-link--white m-bottom--small"
                                             >
                                                 Blog
-                                            </a>
+                                            </Link>
 
-                                            <a
-                                                href=""
+                                            <Link
+                                                to="/#faqs"
                                                 className="pb-link pb-link--white m-bottom--small"
                                             >
                                                 Help + FAQs
-                                            </a>
+                                            </Link>
 
-                                            <a
-                                                href=""
+                                            <Link
+                                                to="/#contact"
                                                 className="pb-link pb-link--white"
                                             >
                                                 Contact
-                                            </a>
+                                            </Link>
                                         </div>
 
                                         <div>

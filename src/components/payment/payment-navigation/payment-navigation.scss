@@ -1,0 +1,32 @@
+:host {
+  display: block;
+}
+
+.pb-payment-navigation {
+  padding: 0 84px 32px;
+}
+
+.pb-payment-navigation__navigation-home {
+  font-family: 'Ranade';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #282135;
+}
+
+.pb-payment-navigation__navigation-divider {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.02;
+}
+
+.pb-payment-navigation__payment {
+  font-family: 'Ranade';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #28213599;
+}

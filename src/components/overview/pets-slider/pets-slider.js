@@ -28,7 +28,7 @@ class PetsSlider extends Component {
 
     render() {
         return (
-            <div>
+            <div id="contact">
                 <div vertical="center" horizontal="between" className="p-horizontal--x-large m-bottom--x-large">
                     <div className="pb-slider__text m-left--x-large p-right--large">
                         Inscreva-se para ver mais

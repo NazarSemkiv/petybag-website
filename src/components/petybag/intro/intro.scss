@@ -1,0 +1,90 @@
+:host {
+  display: block;
+}
+
+.pb-intro-petybag {
+  .pb-intro {
+    padding-top: 108px;
+    position: relative;
+  }
+
+  .pb-intro__background-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .pb-intro__background-img--item {
+    right: 364px;
+    width: 382px;
+    height: 509px;
+  }
+
+  .pb-intro__main {
+    padding: 0 353px 160px 84px;
+  }
+
+  .pb-intro__label {
+    font-size: 160px;
+    font-weight: 500;
+    line-height: 160px;
+    letter-spacing: 0;
+  }
+
+  .pb-intro__description {
+    font-family: 'Ranade';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+  }
+
+  .pb-intro__slide-text {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 82px;
+    letter-spacing: 0;
+    color: #ffffff;
+  }
+
+  .pb-intro__slide-divider {
+    height: 12px;
+    width: 12px;
+    background: #ffffff;
+    border-radius: 50%;
+  }
+
+  .pb-intro__slider-wrapper {
+    height: 82px;
+    background: #FF3B7F;
+    z-index: 1;
+  }
+
+  .pb-intro__slider {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .slick-track {
+      display: flex;
+
+      .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .slick-slide > div {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .slick-list {
+      overflow: hidden;
+    }
+  }
+}

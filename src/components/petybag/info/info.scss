@@ -1,0 +1,51 @@
+:host {
+  display: block;
+}
+
+.pb-info-petybag {
+  .pb-info {
+    padding: 0 84px 160px;
+  }
+
+  .pb-info__label {
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0;
+  }
+
+  .pb-info__description {
+    width: 462px;
+    font-family: 'Ranade';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .pb-info__info-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 44px;
+  }
+
+  .pb-info__info-item-label {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0;
+  }
+
+  .pb-info__info-item-descr {
+    font-family: 'Ranade';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+  }
+
+  .pb-info__info-item-img {
+    width: 100%;
+  }
+}

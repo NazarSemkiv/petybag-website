@@ -1,0 +1,29 @@
+:host {
+  display: block;
+}
+
+.pb-sizes-info {
+  padding: 160px 84px 0;
+}
+
+.pb-sizes-info__label {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0;
+}
+
+.pb-sizes-info__description {
+  width: 462px;
+  min-width: 462px;
+  font-family: 'Ranade';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.pb-sizes-info__img {
+  width: 100%;
+}

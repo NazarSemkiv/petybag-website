@@ -13,6 +13,7 @@ class Header extends Component {
         super(props);
         this.openHamburger = this.openHamburger.bind(this);
         this.openRastrear = this.openRastrear.bind(this);
+        this.closeMenu = this.closeMenu.bind(this);
         this.state = {
             condition: false,
             isRastrear: false,
@@ -25,6 +26,12 @@ class Header extends Component {
         this.setState({
             isRastrear: true,
             condition: true
+        });
+    }
+    closeMenu() {
+        this.setState({
+            isRastrear: false,
+            condition: false
         });
     }
 
@@ -97,7 +104,7 @@ class Header extends Component {
                             </Link>
 
                             <Link
-                                to=""
+                                to="/petybag"
                                 activeClassName="pb-link--active"
                                 className="pb-link m-left--xx-large"
                                 onClick={this.handleStopPropagation}
@@ -145,26 +152,28 @@ class Header extends Component {
                                 </button>
                             </a>
 
-                            <button
-                                className= { !this.state.condition ? "pb-bag-wrapper pb-button pb-button--bordered m-left--x-small" : "pb-bag-wrapper pb-button pb-button--dark m-left--x-small" }
-                                type="button"
-                            >
-                                {
-                                    this.state.condition &&
-                                    <img
-                                        alt="Bag icon"
-                                        src={bagIcon}
-                                    />
-                                }
-                                {
-                                    !this.state.condition &&
-                                    <img
-                                        alt="Bag icon"
-                                        src={bagIconDark}
-                                    />
-                                }
-                                <div className="pb-bag-indicator"></div>
-                            </button>
+                            <Link to="/payment">
+                                <button
+                                    className= { !this.state.condition ? "pb-bag-wrapper pb-button pb-button--bordered m-left--x-small" : "pb-bag-wrapper pb-button pb-button--dark m-left--x-small" }
+                                    type="button"
+                                >
+                                    {
+                                        this.state.condition &&
+                                        <img
+                                            alt="Bag icon"
+                                            src={bagIcon}
+                                        />
+                                    }
+                                    {
+                                        !this.state.condition &&
+                                        <img
+                                            alt="Bag icon"
+                                            src={bagIconDark}
+                                        />
+                                    }
+                                    <div className="pb-bag-indicator"></div>
+                                </button>
+                            </Link>
                         </div>
                     </div>
 
@@ -172,53 +181,53 @@ class Header extends Component {
                         (this.state.condition && !this.state.isRastrear) &&
                         <div className="pb-header-menu" vertical="start" horizontal="between">
                             <div direction="column">
-                                <a
-                                    href=""
+                                <Link
+                                    to=""
                                     className="pb-link pb-link--large m-bottom--medium"
-                                    onClick={this.handleStopPropagation}
+                                    onClick={this.closeMenu}
                                 >
                                     Revocação
-                                </a>
+                                </Link>
 
-                                <a
-                                    href=""
+                                <Link
+                                    to="/#comando"
                                     className="pb-link pb-link--large m-bottom--medium"
-                                    onClick={this.handleStopPropagation}
+                                    onClick={this.closeMenu}
                                 >
                                     Comando
-                                </a>
+                                </Link>
 
-                                <a
-                                    href=""
+                                <Link
+                                    to="/petybag/#produto"
                                     className="pb-link pb-link--large m-bottom--medium"
-                                    onClick={this.handleStopPropagation}
+                                    onClick={this.closeMenu}
                                 >
                                     Produto
-                                </a>
+                                </Link>
 
-                                <a
-                                    href=""
+                                <Link
+                                    to="/#faqs"
                                     className="pb-link pb-link--large m-bottom--medium"
-                                    onClick={this.handleStopPropagation}
+                                    onClick={this.closeMenu}
                                 >
                                     FAQs
-                                </a>
+                                </Link>
 
-                                <a
-                                    href=""
+                                <Link
+                                    to="/#contact"
                                     className="pb-link pb-link--large m-bottom--medium"
-                                    onClick={this.handleStopPropagation}
+                                    onClick={this.closeMenu}
                                 >
                                     Contact
-                                </a>
+                                </Link>
 
-                                <a
-                                    href=""
+                                <Link
+                                    to="/#pedido"
                                     className="pb-link pb-link--large"
-                                    onClick={this.handleStopPropagation}
+                                    onClick={this.closeMenu}
                                 >
                                     Enviar pedido
-                                </a>
+                                </Link>
                             </div>
 
                             <div direction="column">
