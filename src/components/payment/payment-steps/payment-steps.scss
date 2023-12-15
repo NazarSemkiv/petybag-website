@@ -3,5 +3,72 @@
 }
 
 .pb-payment-steps {
-  padding: 0 84px 160px;
+  padding: 0 84px 144px;
+}
+
+.pb-payment-steps__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: 0;
+}
+
+.pb-payment-steps__steps-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 16px;
+}
+
+.pb-payment-steps__step-item {
+  border: 1px solid #2821351A;
+  border-radius: 16px;
+  padding: 16px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+}
+
+.pb-payment-steps__step-item--active {
+  border-color: #FF3B7F;
+}
+
+.pb-payment-steps__step-number {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0;
+  border: 1px solid #28213599;
+  border-radius: 50%;
+  color: #28213599;
+}
+
+.pb-payment-steps__step-number--active {
+  border: none;
+  background: #FF3B7F;
+  color: #ffffff;
+}
+
+.pb-payment-steps__step-label {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0;
+}
+
+.pb-payment-steps__step-description {
+  font-family: 'Ranade';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.pb-payment-steps__step-hidden {
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }

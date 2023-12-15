@@ -38,8 +38,6 @@ class Contacts extends Component {
 
                 <form
                     className="s-width--1-2 p-left--x-large"
-                    action=""
-                    method=""
                     onSubmit={this.onSubmit}
                 >
                     <div className="pb-input-wrapper m-bottom--large flex-grow">

@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+
+.step-two {
+  width: 768px;
+  padding-top: 32px;
+}
+
+.step-two__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.step-two__form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}

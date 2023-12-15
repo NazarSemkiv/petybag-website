@@ -19,6 +19,8 @@ const settings = {
     centerMode: true,
     variableWidth: true,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
 };
 
 class PetsSlider extends Component {

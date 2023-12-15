@@ -86,52 +86,52 @@
     overflow: hidden;
   }
 
-  .slick-arrow {
-    transition: 200ms;
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    font-size: 0;
-    border-radius: 50%;
-    top: calc(50% - 75px);
-    cursor: pointer;
-    background: #FF3B7F;
-    color: #fff;
-    border: 1px solid #FFFFFF33;
-    visibility: hidden;
-    z-index: 2;
-  }
-
-  .slick-arrow:hover {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-    transition: 200ms transform;
-    transform: scale(1.05);
-  }
-
-  .slick-prev {
-    left: 200px;
-  }
-
-  .slick-next {
-    right: 200px;
-  }
-
-  .slick-prev:before,
-  .slick-next:before {
-    color: #fff;
-    font-family: 'Ranade';
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0;
-
-  }
-
-  .slick-prev:before {
-    content: "Anterior";
-  }
-
-  .slick-next:before {
-    content: "Próximo";
-  }
+  //.slick-arrow {
+  //  transition: 200ms;
+  //  position: absolute;
+  //  height: 150px;
+  //  width: 150px;
+  //  font-size: 0;
+  //  border-radius: 50%;
+  //  top: calc(50% - 75px);
+  //  cursor: pointer;
+  //  background: #FF3B7F;
+  //  color: #fff;
+  //  border: 1px solid #FFFFFF33;
+  //  visibility: hidden;
+  //  z-index: 2;
+  //}
+  //
+  //.slick-arrow:hover {
+  //  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  //  transition: 200ms transform;
+  //  transform: scale(1.05);
+  //}
+  //
+  //.slick-prev {
+  //  left: 200px;
+  //}
+  //
+  //.slick-next {
+  //  right: 200px;
+  //}
+  //
+  //.slick-prev:before,
+  //.slick-next:before {
+  //  color: #fff;
+  //  font-family: 'Ranade';
+  //  font-size: 18px;
+  //  font-weight: 500;
+  //  line-height: 28px;
+  //  letter-spacing: 0;
+  //
+  //}
+  //
+  //.slick-prev:before {
+  //  content: "Anterior";
+  //}
+  //
+  //.slick-next:before {
+  //  content: "Próximo";
+  //}
 }

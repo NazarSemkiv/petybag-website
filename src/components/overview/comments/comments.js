@@ -12,7 +12,9 @@ const settings = {
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true,
-    arrows: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
 };
 
 class Comments extends Component {

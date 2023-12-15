@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+.step-three {
+  width: 768px;
+  padding-top: 64px;
+}
+
+.step-three__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.step-three__cep {
+  width: 310px;
+}
+
+.step-three__cep-sub-text {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #28213599;
+}

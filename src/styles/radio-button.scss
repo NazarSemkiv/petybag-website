@@ -1,0 +1,38 @@
+.pb-radio-button {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #FF3B7F;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.pb-radio-button::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #FF3B7F;
+  background-color: #FF3B7F;
+}
+
+.pb-radio-button:checked::before {
+  transform: scale(1);
+}
+
+.pb-radio-button:focus {
+  outline: none;
+}
+
+.pb-radio-button--checkbox::before,
+.pb-radio-button--checkbox {
+  border-radius: 0;
+}

@@ -4,12 +4,22 @@ import Seo from "../components/seo";
 import PaymentNavigation from "../components/payment/payment-navigation/payment-navigation";
 import PaymentSteps from "../components/payment/payment-steps/payment-steps";
 
-const Payment = () => (
-    <Layout page="payment">
-        <Seo title="Payment"/>
-        <PaymentNavigation/>
-        <PaymentSteps/>
-    </Layout>
-);
+export default function Payment() {
+    const [option, setValue] = React.useState(null)
 
-export default Payment
+    function onSubmit(e) {
+        setValue(e)
+        console.log('selected option', option);
+    }
+
+    return (
+        <Layout page="payment">
+            <Seo title="Payment"/>
+            <PaymentNavigation/>
+            {
+                (option === null) &&
+                <PaymentSteps onOptionSelected={onSubmit} />
+            }
+        </Layout>
+    )
+}

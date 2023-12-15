@@ -1,0 +1,144 @@
+:host {
+  display: block;
+}
+
+.step-four {
+  width: 1068px;
+  padding-top: 64px;
+}
+
+.step-four__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 80px;
+}
+
+.step-four__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0;
+}
+
+.step-four__items-wrapper {
+  background: #F1F3FB;
+  border-radius: 32px;
+  padding: 44px;
+}
+
+.step-four__item {
+  height: 100px;
+}
+
+.step-four__delete-wrapper {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.step-four__item-img-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.step-four__item-attribute {
+  width: 126px;
+  font-family: 'Ranade';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.step-four__item-value {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.step-four__item-label {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.step-four__item-value-action {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.step-four__total-section {
+  height: 56px;
+}
+
+.step-four__total-label {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.step-four__total-value {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.step-four__total-section:last-child {
+  border-top: 1px solid #DFDFDF;
+}
+
+.step-four__card-wrapper {
+  width: 47px;
+  height: 31px;
+}
+
+.step-four__card-icon {
+  height: 100%;
+}
+
+.pb-radio-button__label {
+  padding-left: 12px;
+  font-family: 'Ranade';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.pb-step-four__discount-text {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #FF3B7F;
+}
+
+.step-four__pix-title {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.step-four__icon-wrapper {
+  background: #F1F3FB;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.step-four__icon-text {
+  font-family: 'Ranade';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}

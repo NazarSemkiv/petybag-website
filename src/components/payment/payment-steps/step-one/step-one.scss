@@ -1,0 +1,91 @@
+:host {
+  display: block;
+}
+
+.step-one {
+  padding-top: 64px;
+  width: 768px;
+}
+
+.step-one__basket {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0;
+}
+
+.step-one__divider {
+  height: 1px;
+  width: 100%;
+  background: #DFDFDF;
+}
+
+.step-one__item {
+  height: 100px;
+}
+
+.step-one__delete-wrapper {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.step-one__item-img-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  background: #F4F4F4;
+  overflow: hidden;
+}
+
+.step-one__item-attribute {
+  width: 126px;
+  font-family: 'Ranade';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.step-one__item-value {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.step-one__item-label {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.step-one__item-value-action {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.step-one__total-section {
+  height: 56px;
+}
+
+.step-one__total-label {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.step-one__total-value {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.step-one__total-section:last-child {
+  border-top: 1px solid #DFDFDF;
+}

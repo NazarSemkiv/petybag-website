@@ -16,16 +16,18 @@
   line-height: 28px;
   letter-spacing: 0;
   transition: 200ms ease;
+  outline: none;
 
   &:hover {
     box-shadow: 0 0 0 1px #a9abad;
     border-color: #a9abad;
   }
 
+  &:focus-visible,
   &:active,
   &:focus {
-    box-shadow: 0 0 0 1px #0070d2;
-    border-color: #0070d2;
+    box-shadow: 0 0 0 1px #FF3B7F;
+    border-color: #FF3B7F;
   }
 }
 
@@ -39,6 +41,12 @@
   height: 34px;
   position: absolute;
   top: calc(50% - 17px);
+}
+
+.pb-input-icon--country {
+  width: 24px;
+  height: 24px;
+  top: calc(50% + 4px);
 }
 
 .pb-input-icon--left {
@@ -57,4 +65,8 @@
   letter-spacing: 0;
   padding-left: 24px;
   margin-bottom: 8px;
+}
+
+.pb-input-label--sub {
+  color: #28213599;
 }
