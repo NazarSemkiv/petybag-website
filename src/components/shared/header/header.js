@@ -52,7 +52,6 @@ class Header extends Component {
 
     onSubmit = event => {
         // submit action
-        console.log('this.state.trackNumber', this.state.trackNumber);
     };
 
     componentDidMount() {

@@ -14,7 +14,6 @@ class Contacts extends Component {
 
     onSubmit = event => {
         // submit action
-        console.log('this.state', this.state);
     };
 
     handleChange = input => e => {

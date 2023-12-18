@@ -1,0 +1,157 @@
+:host {
+  display: block;
+}
+
+.pb-tracking {
+  padding: 0 84px 144px;
+}
+
+.pb-tracking__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: 0;
+}
+
+.pb-tracking__steps {
+  padding-right: 155px;
+}
+
+.pb-tracking__info {
+  width: 380px;
+}
+
+.pb-tracking__step-badge {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #28213533;
+  border-radius: 50%;
+}
+
+.pb-tracking__step-badge-icon {
+  width: 10px;
+}
+
+.pb-tracking__step-badge--active {
+  background: #FF3B7F;
+  border: none;
+}
+
+.pb-tracking__step-divider {
+  height: 74px;
+  width: 1px;
+  background: #FF3B7F;
+  margin: 12px;
+}
+
+.pb-tracking__step-badge-text {
+  font-family: 'Ranade';
+  font-size: 24px;
+  line-height: 39px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.pb-tracking__step-badge-text--active {
+  color: #000000;
+}
+
+.pb-tracking__step-track {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.pb-tracking__step-track-number {
+  background: #FFECF3;
+  padding: 8px;
+  border-radius: 4px;
+  height: 29px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0;
+  color: #FF3B7F;
+}
+
+.pb-tracking__step-badge-text:nth-child(1) {
+  margin-bottom: 82px;
+  margin-top: -6px;
+}
+
+.pb-tracking__step-badge-text:nth-child(2) {
+  margin-bottom: 82px;
+}
+
+.pb-tracking__step-badge-text:nth-child(3) {
+  margin-bottom: 44px;
+}
+
+.pb-tracking__info-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0;
+}
+
+.pb-tracking__info-sub-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #FF3B7F;
+}
+
+.pb-tracking__info-label {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.pb-tracking__info-value {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.pb-tracking__item-wrapper {
+  border-radius: 32px;
+  background: #F1F3FB;
+  padding: 32px 44px 32px 32px;
+}
+
+.pb-tracking__item-img-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.pb-tracking__item-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.pb-tracking__item-value {
+  font-family: 'Ranade';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #28213599;
+}
+
+.pb-tracking__item-value-number {
+  font-family: 'Ranade';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #FF3B7F;
+}

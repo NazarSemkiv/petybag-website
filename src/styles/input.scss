@@ -18,16 +18,20 @@
   transition: 200ms ease;
   outline: none;
 
-  &:hover {
+  &:hover:not([disabled]) {
     box-shadow: 0 0 0 1px #a9abad;
     border-color: #a9abad;
   }
 
-  &:focus-visible,
-  &:active,
-  &:focus {
+  &:focus-visible:not([disabled]),
+  &:active:not([disabled]),
+  &:focus:not([disabled]) {
     box-shadow: 0 0 0 1px #FF3B7F;
     border-color: #FF3B7F;
+  }
+
+  &[disabled] {
+    background: #F1F3FB;
   }
 }
 

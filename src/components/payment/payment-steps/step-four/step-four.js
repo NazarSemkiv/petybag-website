@@ -424,7 +424,7 @@ class StepFour extends Component {
                         <button
                             className="pb-button pb-button--p-horizontal pb-button--pink"
                             type="button"
-                            onClick={this.props.optionSelected(this.state.option)}
+                            onClick={this.props.optionSelected({ selectedOption: this.state.option, view: 'total' })}
                         >
                             Próximo passo
                         </button>
