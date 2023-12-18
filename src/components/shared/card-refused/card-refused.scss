@@ -1,0 +1,44 @@
+:host {
+  display: block;
+}
+
+.pb-card-refused {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background: #00000066;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pb-card-refused__dialog {
+  background: #FFFFFF;
+  border-radius: 32px;
+  width: 725px;
+  padding: 44px;
+}
+
+.pb-card-refused__title {
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.pb-card-refused__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.pb-card-refused__description--value {
+  font-weight: 600;
+}
+
+.pb-card-refused__img {
+  width: 300px;
+}
